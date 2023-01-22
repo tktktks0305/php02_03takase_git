@@ -127,7 +127,7 @@ if($status==false) {
     <div class="row mb-3">
       <div class="col-md-6 mb-3">
         <label class="form-label">購入時期</label>
-        <input type="date" name="date" class="form-control" min="1980-01-01">
+        <input type="date" name="date" class="form-control" min="1980-01-01" value="<?=$row['date'];?>">
       </div>
 
       <div class="col-md-6">
